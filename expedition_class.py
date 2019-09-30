@@ -12,11 +12,6 @@ class Expedition():
         self.__spaceship = new_ship
 
     def expo_details(self):
-        # Send a dictionary with
-            # Origin
-            # Destination
-            # Spaceship
-            # Passengers
         expo_details_dict = {
             'origin' : self.__origin,
             'destination': self.__destination,
@@ -25,6 +20,16 @@ class Expedition():
         }
 
         return expo_details_dict
+
+    def add_pass_expo(self, passenger):
+        if self.__passenger_list.append(passenger):
+            return True
+        else:
+            return False
+
+
+
+
 # A origin ( always gazorpazorp space station)
 # A destination
 # Space ship assigned

@@ -23,9 +23,17 @@ ship_3 = Spaceship("The DR.", "TARDIS", 'T-1' )
 
 # Generate 3 expeditions
 
-expo_1 = Expedition('Mars', 'GodsPlan', )
-exp0_2 = Expedition('Death Star', 'relation-SHIP')
-expo_3 = Expedition('Nowhere', 'TARDIS')
+expo_1 = Expedition('Mars', ship_1)
+exp0_2 = Expedition('Death Star', ship_2)
+expo_3 = Expedition('Nowhere', ship_3)
+
+
+expo_1.add_pass_expo(passenger_1)
+expo_1.add_pass_expo(passenger_2)
+
+
+
+
     # keep list of generated expeditions (add to empty listy of expeditions)
     # Assign spaceship to each one
         # Should be able to assign pon creation of object
