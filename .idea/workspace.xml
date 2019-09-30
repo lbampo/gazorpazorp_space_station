@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d47f408a-774c-4f51-ac75-9147af7f143c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gazorpazorp_run.py" beforeDir="false" afterPath="$PROJECT_DIR$/gazorpazorp_run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/passenger_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/passenger_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spaceship_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/spaceship_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expedition_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/expedition_class.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
