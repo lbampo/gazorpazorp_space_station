@@ -1,9 +1,24 @@
 # Import all classes
+from passenger_class import *
+from spaceship_class import *
+
+
 
 # Create objects
+
 # generate 6 passengers
+passenger_1 = Passenger("Poopertings Pooping", "Priopooper", "PP1567")
+passenger_2 = Passenger("Hanamanahanamana", "Scoponger", "SC5545")
+passenger_3 = Passenger("YsoMAD", "Emowtonpon", "EM5653")
+passenger_4 = Passenger("LAPALAPA", "Soundon", "SO3412")
+passenger_5 = Passenger("Whodis", "QuestionMaster", "QN5746")
+passenger_6 = Passenger("Amy Pond", "Human", "T1")
+
 
 # generate 3 spaceships
+ship_1 = Spaceship('Morgan Freeman', 'GodsPlan', 'GP-1')
+ship_2 = Spaceship('Marvel Ous', 'realtion-SHIP', 'RS-7')
+ship_3 = Spaceship("The DR.", "TARDIS", 'T-1' )
 
 # Generate 3 expeditions
     # keep list of generated expeditions (add to empty listy of expeditions)
