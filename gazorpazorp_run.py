@@ -1,6 +1,7 @@
 # Import all classes
 from passenger_class import *
 from spaceship_class import *
+from expedition_class import *
 
 
 
@@ -17,10 +18,14 @@ passenger_6 = Passenger("Amy Pond", "Human", "T1")
 
 # generate 3 spaceships
 ship_1 = Spaceship('Morgan Freeman', 'GodsPlan', 'GP-1')
-ship_2 = Spaceship('Marvel Ous', 'realtion-SHIP', 'RS-7')
+ship_2 = Spaceship('Marvel Ous', 'relation-SHIP', 'RS-7')
 ship_3 = Spaceship("The DR.", "TARDIS", 'T-1' )
 
 # Generate 3 expeditions
+
+expo_1 = Expedition('Mars', 'GodsPlan', )
+exp0_2 = Expedition('Death Star', 'relation-SHIP')
+expo_3 = Expedition('Nowhere', 'TARDIS')
     # keep list of generated expeditions (add to empty listy of expeditions)
     # Assign spaceship to each one
         # Should be able to assign pon creation of object

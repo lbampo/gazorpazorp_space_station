@@ -16,6 +16,8 @@ class Spaceship():
         self.__name = name
 
 
+
+
 # Captain
 # Name(ID)
 # Intergalactic_signature
