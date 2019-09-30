@@ -20,18 +20,34 @@ passenger_6 = Passenger("Amy Pond", "Human", "T1")
 ship_1 = Spaceship('Morgan Freeman', 'GodsPlan', 'GP-1')
 ship_2 = Spaceship('Marvel Ous', 'relation-SHIP', 'RS-7')
 ship_3 = Spaceship("The DR.", "TARDIS", 'T-1' )
+ship_4 = Spaceship("Cage", "Nicoloaus Excelsior", "CAGE1776")
 
 # Generate 3 expeditions
 
 expo_1 = Expedition('Mars', ship_1)
-exp0_2 = Expedition('Death Star', ship_2)
+expo_2 = Expedition('Death Star', ship_2)
 expo_3 = Expedition('Nowhere', ship_3)
+
+
+expo_list = []
+expo_list.append(expo_1)
+expo_list.append(expo_2)
+expo_list.append(expo_3)
+
+
+expo_3.assign_spaceship(ship_4)
 
 
 expo_1.add_pass_expo(passenger_1)
 expo_1.add_pass_expo(passenger_2)
 
+expo_2.add_pass_expo(passenger_3)
+expo_2.add_pass_expo(passenger_4)
 
+expo_3.add_pass_expo(passenger_5)
+expo_3.add_pass_expo(passenger_6)
+
+# print(expo_1.expo_details())
 
 
     # keep list of generated expeditions (add to empty listy of expeditions)
@@ -43,6 +59,11 @@ expo_1.add_pass_expo(passenger_2)
     #Assign to each expedition 2 passengers (append)
 
     # Iterate over list of expeditions and print
+for list in expo_list:
+    for key in list.expo_details():
+        print(key, list.expo_details() [key])
+
+
         # Iterate over list of passenger object and print out passenger details
 
 
@@ -53,3 +74,7 @@ expo_1.add_pass_expo(passenger_2)
 # * As a user i can add passengers to an expedition#
 # * As a user i can list passengers in expedition
 
+for expedition in expo_list:
+    print(expedition)
+
+    print(expedition.expo_details()['origin'], expedition.expo_details()['destinbation'], expedition.expo_details()['ship'].identify)

@@ -17,6 +17,7 @@ class Expedition():
             'destination': self.__destination,
             'spaceship': self.__spaceship,
             'pass_list': self.__passenger_list
+
         }
 
         return expo_details_dict
@@ -27,6 +28,21 @@ class Expedition():
         else:
             return False
 
+    def get_destination(self):
+        return self.__destination
+
+    def get_origin(self):
+        return self.__origin
+
+    def get_pass_list(self):
+        return self.__passenger_list
+
+    def get_spaceship(self):
+        return
+
+    def print_list_passengers(self):
+        for passenger in self.get_pass_list():
+            print('Name: ' + passenger.name + ',', '')
 
 
 
